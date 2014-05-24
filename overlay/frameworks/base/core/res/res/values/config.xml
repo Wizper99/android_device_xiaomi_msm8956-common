@@ -393,11 +393,14 @@
     <!-- Full qualified name of the class that implements
         com.android.internal.os.DeviceKeyHandler interface. -->
     <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
+<<<<<<< HEAD
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
     <bool name="config_multiColorNotificationLed">true</bool>
 
+=======
+>>>>>>> 4430226... msm8956-common: XiaomiParts: add Advanced device settings
 </resources>
 
