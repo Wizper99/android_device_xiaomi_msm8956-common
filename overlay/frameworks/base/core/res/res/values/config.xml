@@ -371,5 +371,19 @@
 
     <!-- Boolean indicating whether we want button brightness support --> 
     <bool name="config_button_brightness_support">true</bool>
+
+    <!-- The list absolute paths of jar/apk files containing the device specific handlers,
+        delimited by File.pathSeparator, which defaults to ":" on Android -->
+    <string name="config_deviceKeyHandlerLib" translatable="false">/system/priv-app/XiaomiParts/XiaomiParts.apk</string>
+
+    <!-- Full qualified name of the class that implements
+        com.android.internal.os.DeviceKeyHandler interface. -->
+    <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
+
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <bool name="config_multiColorNotificationLed">true</bool>
+
 </resources>
 
